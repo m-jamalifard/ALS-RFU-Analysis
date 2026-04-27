@@ -6,7 +6,7 @@ import os, logging, glob
 from pathlib import Path
 import numpy as np, pandas as pd
 
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_2023_24"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
