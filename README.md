@@ -86,7 +86,7 @@ Place all data files in the root `ALS_RFU_Analysis/` directory. The scripts expe
 
 ### Setup
 ```bash
-cd /home/reza/ALS_RFU_Analysis
+cd ALS_RFU_Analysis
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
