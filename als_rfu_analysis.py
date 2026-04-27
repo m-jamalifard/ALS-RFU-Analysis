@@ -8,7 +8,7 @@ ALS & RFU Rugby Union Participation Analysis – Enhanced Edition
   • RFU U7–U18: club registrations including 2023-24 new dataset.
   • Publication-quality visualizations and full gap analysis.
 
-Expected working directory: /home/reza/ALS_RFU_Analysis
+Expected working directory: path/ALS_RFU_Analysis
   ├── ALS_Young_2017-18.sav … ALS_Young_2022-23.sav
   ├── ALS_Adult_2017-18.sav … ALS_Adult_2022-23.sav
   ├── RFU Data 2011_23.xlsx
@@ -79,7 +79,7 @@ CAT_COLORS = [
 # Configuration
 # ──────────────────────────────────────────────────────────────────────────────
 
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output"
 
 LOG_FMT = "%(asctime)s | %(levelname)-8s | %(message)s"
