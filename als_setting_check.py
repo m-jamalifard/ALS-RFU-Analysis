@@ -2,12 +2,12 @@
 """
 Lightweight check: find school/club setting columns in ALS data.
 Uses metadata-only loading first, then targeted column loading.
-Run: cd /home/reza/ALS_RFU_Analysis && python als_setting_check.py
+Run: cd path/ALS_RFU_Analysis && python als_setting_check.py
 """
 import pyreadstat
 from pathlib import Path
 
-BASE = Path("/home/reza/ALS_RFU_Analysis")
+BASE = Path("path/ALS_RFU_Analysis")
 
 def get_column_names(filepath):
     """Get just column names without loading data."""
