@@ -2,13 +2,13 @@
 """
 Count RFU clubs per region from RFU_Data_New.xlsx (2023-24).
 Also computes clubs-per-capita and clubs relative to ALS participation.
-Run: cd /home/reza/ALS_RFU_Analysis && python rfu_club_count.py
+Run: cd path/ALS_RFU_Analysis && python rfu_club_count.py
 """
 import pandas as pd
 import numpy as np
 from pathlib import Path
 
-BASE = Path("/home/reza/ALS_RFU_Analysis")
+BASE = Path("path/ALS_RFU_Analysis")
 
 # ── Load club-level data ──
 raw = pd.read_excel(BASE / "RFU_Data_New.xlsx", sheet_name=0, header=None)
