@@ -45,7 +45,7 @@ warnings.filterwarnings("ignore")
 # Configuration
 # ──────────────────────────────────────────────────────────────
 
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_cross_sport"
 
 LOG_FMT = "%(asctime)s | %(levelname)-8s | %(message)s"
