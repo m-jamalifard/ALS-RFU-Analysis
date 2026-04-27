@@ -1,0 +1,6 @@
+pandas>=1.5
+numpy>=1.23
+pyreadstat>=1.2
+matplotlib>=3.6
+openpyxl>=3.0
+scipy>=1.9
