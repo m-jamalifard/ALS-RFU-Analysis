@@ -12,7 +12,7 @@ The pipeline supports the University of Essex **REF2029 Impact Case Study** eval
 ## Authors
 
 - **Dr Benjamin Jones** — University of Essex, School of Sport, Rehabilitation and Exercise Sciences
-- **Reza Sherkat Joshi** — University of Essex, School of Computer Science and Electronic Engineering (PhD student)
+- **Mohammadreza Jamalifard** — University of Essex, School of Computer Science and Electronic Engineering (PhD student)
 
 ---
 
