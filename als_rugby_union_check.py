@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 Quick diagnostic: find Rugby Union-specific columns in each ALS Young .sav file.
-Run: cd /home/reza/ALS_RFU_Analysis && python als_rugby_union_check.py
+Run: cd path/ALS_RFU_Analysis && python als_rugby_union_check.py
 """
 import pyreadstat
 from pathlib import Path
 
-BASE = Path("/home/reza/ALS_RFU_Analysis")
+BASE = Path("path/ALS_RFU_Analysis")
 FILES = [
     "ALS_Young_2017-18.sav",
     "ALS_Young_2018-19.sav",
