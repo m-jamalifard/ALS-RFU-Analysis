@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 import pyreadstat
 
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_2023_24"
 SAV_FILE   = BASE_DIR / "ALS_Young_2023-24.sav"
 CHUNK_SIZE = 20000  # rows per chunk
