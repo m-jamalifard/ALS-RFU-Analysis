@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Diagnose the Adult 16-18 weight issue.
-Run: cd /home/reza/ALS_RFU_Analysis && python adult_weight_check.py
+Run: cd path/ALS_RFU_Analysis && python adult_weight_check.py
 """
 import pyreadstat
 import numpy as np
