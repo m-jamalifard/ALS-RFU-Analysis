@@ -7,7 +7,7 @@ full reads. This script reads in chunks using row_limit + row_offset,
 finds the correct gender column, and produces the same output CSVs
 that the main scripts would generate.
 
-Run: cd /home/reza/ALS_RFU_Analysis && python als_2023_24_extract.py
+Run: cd path/ALS_RFU_Analysis && python als_2023_24_extract.py
 
 Output: output_2023_24/
   ├── als_2023_24_cleaned.csv          (full extracted data, key cols only)
