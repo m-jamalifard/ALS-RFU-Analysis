@@ -12,7 +12,7 @@ Step 2B: Gender × IMD over time
 Step 2C: Age groups × IMD
 Step 3: Summary tables for Report 1
 
-Run: cd /home/reza/ALS_RFU_Analysis && python als_ses_analysis.py
+Run: cd path/ALS_RFU_Analysis && python als_ses_analysis.py
 
 Output: output_ses/
 """
@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import warnings; warnings.filterwarnings("ignore")
 
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_ses"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(message)s")
