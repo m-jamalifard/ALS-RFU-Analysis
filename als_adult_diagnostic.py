@@ -8,7 +8,7 @@ unique age values, gender codes, sport column values, and checks
 whether the same column names from the Young data exist.
 
 Usage:
-    cd /home/reza/ALS_RFU_Analysis
+    cd path/ALS_RFU_Analysis
     python als_adult_diagnostic.py
 """
 
@@ -19,7 +19,7 @@ from pathlib import Path
 import pandas as pd
 import pyreadstat
 
-BASE_DIR = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR = Path("path/ALS_RFU_Analysis")
 
 ADULT_FILES = [
     "ALS_Adult_2017-18.sav",
