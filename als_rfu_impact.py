@@ -14,7 +14,7 @@ Six analyses:
   5. Regional Opportunity Map — where to recruit
   6. Gender Growth Opportunity — the biggest untapped market
 
-Run: cd /home/reza/ALS_RFU_Analysis && python als_rfu_impact.py
+Run: cd path/ALS_RFU_Analysis && python als_rfu_impact.py
 """
 
 import os, logging
@@ -27,7 +27,7 @@ from matplotlib.gridspec import GridSpec
 import warnings; warnings.filterwarnings("ignore")
 
 # ──────────────────────────────────────────────────────────────────────────────
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_impact"
 
 logging.basicConfig(level=logging.INFO,
