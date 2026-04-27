@@ -13,7 +13,7 @@ Implements the 6-step analysis plan + 5 audit fixes:
   + Regional/geographic analysis (Q6)
   + Cleaned yearly file exports
 
-Run: cd /home/reza/ALS_RFU_Analysis && python als_rfu_stratified.py
+Run: cd path/ALS_RFU_Analysis && python als_rfu_stratified.py
 """
 
 import os, logging
@@ -29,7 +29,7 @@ import warnings; warnings.filterwarnings("ignore")
 # ──────────────────────────────────────────────────────────────────────────────
 # Config
 # ──────────────────────────────────────────────────────────────────────────────
-BASE_DIR   = Path("/home/reza/ALS_RFU_Analysis")
+BASE_DIR   = Path("path/ALS_RFU_Analysis")
 OUTPUT_DIR = BASE_DIR / "output_stratified"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)-8s | %(message)s")
