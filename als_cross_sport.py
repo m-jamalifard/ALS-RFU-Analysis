@@ -10,7 +10,7 @@ Replicates the rugby participation analysis for football and cricket:
 This mirrors Analyses 1/3/4 from the rugby impact report.
 
 Usage:
-  cd /home/reza/ALS_RFU_Analysis
+  cd path/ALS_RFU_Analysis
   python als_cross_sport.py
 
 Output:
